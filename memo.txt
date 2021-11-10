@@ -1,0 +1,6 @@
+1 git init => permet d'initialiser (dire à git que ce répertoire est un répertoire dont on souhaite
+avoir l'historique des modification) un repository.
+
+2 git add nom_du_fichier => permet d'indexer ce fichier git (peut maintenant suivre l'évolution des modifications apporter au fichiers)
+
+3 git status permet de voir l'etat du dépot (donne des détails sur les fichiers qui sont indéxés et les fichiers qui ne le sont pas encore).
