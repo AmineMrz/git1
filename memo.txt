@@ -5,4 +5,14 @@ avoir l'historique des modification) un repository.
 
 3 git status permet de voir l'etat du dépot (donne des détails sur les fichiers qui sont indéxés et les fichiers qui ne le sont pas encore).
 
-4 git add . (le point pour ajouter )
+4 git add . (le point pour ajouter tout les fichiers du dossiers)
+
+5 git add index* (pour ajouter l'ensemble des fichiers qui commence par index )
+
+6 git commit -m "message du commit" => enregistre l'etat du repository à l'instant, il lui donne un identifiant pour pouvoir revenir sur ce commit plus tard
+
+7 git reset -- hard numero_du_commit => revenir sur le commit en question
+
+8 git branch => lister les branches
+
+9 git branch nom_de_la_branche => permet de creer une branche (une branche c'est une copie exacte de la branche principale au moment de sa création)
